@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="mdl-mega-footer--bottom-section">
             <div class="mdl-logo">
-              &copy; <?=date('Y');?> Kampung Peninggaran
+              &copy; <?=date('Y');?> <a href="<?=base_url();?>">Kampung Peninggaran</a>
             </div>
             <ul class="mdl-mega-footer--link-list">
               <!--li><a href="https://JanuriDP.com">Developer</a></li>

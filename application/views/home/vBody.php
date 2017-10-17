@@ -1,23 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>Kampung Peninggaran</h3>
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-          <a href="#profile" class="mdl-layout__tab">Profile</a>
-          <a href="#features" class="mdl-layout__tab">Informasi</a>
-          <a href="#features" class="mdl-layout__tab">FAQ</a>
-        </div>
-      </header>
       <main class="mdl-layout__content">
         <div class="mdl-layout__tab-panel is-active" id="overview">
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
@@ -125,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             
             <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
               <h5><span class="mdl-badge" data-badge="!">Lengkapi Data Anda</span></h5>
-              Untuk melengkapi data yang terdapat pada Rukun Tetangga 09. Warga diharapkan mengisi biodata pada alamat berikut: <a href="<?=base_url('data-warga');?>"><?=base_url('data-warga');?></a>
+              Untuk melengkapi data yang terdapat pada Rukun Tetangga 09. Warga diharapkan mengisi biodata pada alamat berikut: <a href="<?=base_url('data');?>"><?=base_url('data');?></a>
             </div>
            
             <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">

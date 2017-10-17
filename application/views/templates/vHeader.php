@@ -5,18 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!--
   Material Design Lite
   Copyright 2015 Google Inc. All rights reserved.
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      https://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
 -->
 <html lang="en">
   <head>
@@ -63,3 +51,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     }
     </style>
   </head>
+  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+          <h3><a href="<?=base_url();?>">Kampung Peninggaran</a></h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#overview" class="mdl-layout__tab">Overview</a>
+          <a href="#profile" class="mdl-layout__tab">Profile</a>
+          <a href="#features" class="mdl-layout__tab">Informasi</a>
+          <a href="#features" class="mdl-layout__tab">FAQ</a>
+        </div>
+      </header>

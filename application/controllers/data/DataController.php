@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Data extends CI_Controller {
+class DataController extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,12 @@ class Data extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('vData');
+		$this->load->view('templates/vHeader');
+		$this->load->view('data/vBody');
+		$this->load->view('templates/vFooter');
+	}
+	
+	public function view(){
+		$this->load->view('data/vDataView');
 	}
 }
