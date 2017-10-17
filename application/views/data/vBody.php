@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     Anda bisa melihat data warga RT.09. Semua data telah diverifikasi oleh Ketua RT.09.
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="<?=base_url('data/input');?>">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="<?=base_url('data/view');?>">
       Klik untuk lihat data
     </a>
   </div>

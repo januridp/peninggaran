@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <p><?php echo $message; ?></p>
             </div>
             <div class="card-action">
-              <a href="home">Back</a>
+              <a href="/home">Back</a>
             </div>
           </div>
         </div>
