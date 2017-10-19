@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     Anda bisa membuat data penduduk sesuai KTP &amp; KK. Semua data yang telah dibuat akan diverifikasi oleh Ketua RT.09.
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="<?=base_url('data/entry');?>">
       Klik untuk membuat data baru
     </a>
   </div>
@@ -57,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     Anda bisa memperbarui data warga RT.09. Semua data yang telah diperbarui akan diverifikasi oleh Ketua RT.09.
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="<?=base_url('data/update');?>">
       Klik untuk perbarui data
     </a>
   </div>
@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     Anda bisa menghapus data warga RT.09. Semua data yang akan dihapus harus diverifikasi oleh Ketua RT.09.
   </div>
   <div class="mdl-card__actions mdl-card--border">
-    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="<?=base_url('data/delete');?>">
       Klik untuk hapus data
     </a>
   </div>

@@ -10,3 +10,4 @@ $route['home'] = 'Welcome';
 
 $route['data'] = 'Data/DataController/index';
 $route['data/view'] = 'Data/DataController/view';
+$route['data/entry'] = 'Data/DataController/entry';

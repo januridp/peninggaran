@@ -26,6 +26,26 @@ class DataController extends CI_Controller {
 	}
 	
 	public function view(){
+		$this->load->view('templates/vHeader');
 		$this->load->view('data/vDataView');
+		$this->load->view('templates/vFooter');
+	}
+	
+	public function entry(){
+		$this->load->view('templates/vHeader');
+		$this->load->view('data/vDataEntry');
+		$this->load->view('templates/vFooter');
+	}
+	
+	public function update(){
+		$this->load->view('templates/vHeader');
+		$this->load->view('data/vDataUpdate');
+		$this->load->view('templates/vFooter');
+	}
+	
+	public function hapus(){
+		$this->load->view('templates/vHeader');
+		$this->load->view('data/vDataHapus');
+		$this->load->view('templates/vFooter');
 	}
 }
