@@ -2,6 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class DataController extends CI_Controller {
+	
+	public function __construct()
+  {
+    parent::__construct();
+    $this->load->model('Daerah_model');
+  }
 
 	/**
 	 * Index Page for this controller.
@@ -32,8 +38,9 @@ class DataController extends CI_Controller {
 	}
 	
 	public function entry(){
+		$data['provinsi']=$this->Daerah_model->getProv();
 		$this->load->view('templates/vHeader');
-		$this->load->view('data/vDataEntry');
+		$this->load->view('data/vDataEntry', $data);
 		$this->load->view('templates/vFooter');
 	}
 	

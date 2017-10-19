@@ -5,7 +5,8 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['test'] = 'TestController';
+$route['test'] = 'TestController/index';
+$route['test/entri'] = 'TestController/entri';
 $route['home'] = 'Welcome';
 
 $route['data'] = 'Data/DataController/index';

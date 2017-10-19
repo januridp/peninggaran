@@ -50,6 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       z-index: 900;
     }
     </style>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>assets/js/ajax_daerah.js"></script>
   </head>
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
