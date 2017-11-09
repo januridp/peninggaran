@@ -12,3 +12,5 @@ $route['home'] = 'Welcome';
 $route['data'] = 'Data/DataController/index';
 $route['data/view'] = 'Data/DataController/view';
 $route['data/entry'] = 'Data/DataController/entry';
+$route['data/simpan'] = 'Data/DataController/simpan';
+$route['data/get'] = 'Data/DataController/get';

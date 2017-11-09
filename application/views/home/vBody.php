@@ -121,26 +121,133 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
               <h4>Profile of Kampung Peninggaran</h4>
-              Minim duis incididunt est cillum est ex occaecat consectetur. Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+              JALAN PENINGGARAN RAYA, KEBAYORAN LAMA UTARA, KEBAYORAN LAMA, JAKARTA SELATAN, DKI JAKARTA, INDONESIA, 12240
               <ul class="toc">
                 <h4>Visi</h4>
-                Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
+                Membentuk kerukunan warga dan memelihara lingkungan yang nyaman, aman, tentram, bersih, sehat, ramah, religius serta membangun kerjasama lingkungan antar warga dalam pelaksanaan tanggung jawab.
               </ul>
 			  <ul class="toc">
                 <h4>Misi</h4>
-                Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
+                <ol>
+                  <li>Menajaga kerukunan antar warga, khususnya warga RT 009</li>
+                  <li>Melayani warga dengan prima dalam hal administrasi kependudukan</li>
+                  <li>Memfasilitasi keinginan warga dalam berbagai kegiatan sosial (kebersamaan)</li>
+                  <li>Bersama-sama seluruh warga menjaga keamanan, ketertiban, kebersihan, dan keasrian</li>
+                  <li>Menjalin kerja sama yang bermanfaat dengan berbagai lembaga eksternal</li>
+                  <li>Melakukan kebersihan antar warga melalui gotong royong untuk menciptakan lingkungan bersih, indah, sehat dan sejahtera</li>
+                  <li>Melakukan musyawarah untuk mufakat</li>
+                </ol>
               </ul>
 
               <h5 id="lorem1">Struktur Organisasi</h5>
-              Excepteur et pariatur officia veniam anim culpa cupidatat consequat ad velit culpa est non.
-              <ul>
-                <li>Nisi qui nisi duis commodo duis reprehenderit consequat velit aliquip.</li>
-                <li>Dolor consectetur incididunt in ipsum laborum non et irure pariatur excepteur anim occaecat officia sint.</li>
-                <li>Lorem labore proident officia excepteur do.</li>
-              </ul>
-              <p>
-                Cupidatat labore nisi ut sunt voluptate quis sunt qui ad Lorem esse nisi. Ex esse velit ullamco incididunt occaecat dolore veniam tempor minim adipisicing amet. Consequat in exercitation est elit anim consequat cillum sint labore cillum. Aliquip mollit laboris ad labore anim.
-              </p>
+              <p>STRUKTUR KEPENGURUSAN RT 009 / 09 KEBAYORAN LAMA UTARA JAKARTA SELATAN</p>
+              <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+       <div id="chart_div"></div>													
+            <script>
+                    google.charts.load('current', {packages:["orgchart"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+
+        // For each orgchart box, provide the name, manager, and tooltip to show.
+        data.addRows([
+          ['PENASEHAT', '', 'PENASEHAT'],
+          ['KETUA', 'PENASEHAT', ''],
+          ['SEKRETARIS', 'KETUA', ''],
+          ['SIE.', 'KETUA', ''],
+          ['BENDAHARA', 'KETUA', ''],
+          ['HUMAS', 'SIE.', ''],
+          ['PEMUDA & OLAHRAGA', 'SIE.', ''],
+          ['KEROHANIAN', 'SIE.', ''],
+          ['PEMBANGUNAN, KEBERSIHAN & LINGKUNGAN HIDUP', 'SIE.', ''],
+          ['KEAMANAN', 'SIE.', ''],
+          ['PEMBERDAYAAN KELUARGA & WANITA (PKK)', 'SIE.', ''],
+          ['KESRA', 'SIE.', ''],
+          ['PEMBERDAYAAN & PENDIDIKAN', 'SIE.', '']
+        ]);
+
+        // Create the chart.
+        var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+        // Draw the chart, setting the allowHtml option to true for the tooltips.
+        chart.draw(data, {allowHtml:true});
+      }
+            </script>
+    
+          <p>
+            STRUKTUR   RUKUN TETANGGA 009																	
+KELURAHAN KEBAYORAN LAMA JAKARTA SELATAN																	
+PERIODE 2016 - 2019																	
+
+            </p> <strong>PENASEHAT</strong>
+           <ul>
+             <li>H. MUKINO</li>
+             <li>H. RAJIO</li>
+             <li>USTADZ TARSONO</li>
+           </ul>
+           <strong>KETUA RUKUN TETANGGA</strong>
+           <ul>
+             <li>AGUS SUSANTO</li>
+           </ul>
+           <strong>SEKRETARIS</strong>
+           <ul>
+             <li>JOKO MULYANTO</li>
+           </ul>
+           <strong>BENDAHARA</strong>
+           <ul>
+             <li>HESTI INDRIATI RAHAYU</li>
+           </ul>
+           <strong>SIE.HUMAS</strong>
+           <ol>
+             <li>A. KHOIRUN</li>
+             <li>KASIMIN</li>
+             <li>IDA</li>
+             <li>MUJI FEBRIYANTI</li>
+           </ol>
+           <strong>SIE. PEMBANGUNAN, KEBERSIHAN & LINGKUNGAN HIDUP</strong>
+           <ol>
+             <li>EDI</li>
+             <li>SUYADI	</li>
+             <li>YUDHA PRATIDINA</li>
+             <li>SUKIJAN</li>
+             <li>APIT</li>
+             <li>MUJIATUN</li>
+             <li>ADE UDIN</li>
+             <li>SUJONO</li>
+           </ol>
+           <strong>SIE. PEMBERDAYAAN KELUARGA & WANITA (DASA WISMA) & KESRA</strong>
+           <ol>
+             <li>HJ. RAHAYU</li>
+             <li>RANTI</li>
+             <li>ROSITI</li>
+             <li>SITI ROMLAH</li>
+             <li>YATI</li>
+             <li>ANI</li>
+             <li>HENA</li>
+             <li>DEWI SUSANTI</li>
+             <li>WINDI</li>
+             <li>NURHAYATUN</li>
+             <li>SUSIATI</li>
+             <li>SUMIATI</li>
+           </ol>
+           <strong>SIE.PEMUDA & OLAHRAGA</strong>
+           <ol>
+             <li>SAMADUN</li>
+             <li>ASYUROH ROSITA</li>
+             <li>BAYU</li>
+             <li>SUWARNI</li>
+             <li>DANU WAHYUDI</li>
+             <li>FACHRUR ROZI</li>
+           </ol>
+           <strong>SIE. KEROHANIAN & PENDIDIKAN</strong>
+           <ol>
+             <li>USTADZ SUKRON</li>
+             <li>WASITO HADI</li>
+           </ol>
+
             </div>
           </section>
         </div>

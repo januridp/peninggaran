@@ -191,8 +191,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
            
             <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Lorem ipsum dolor sit amet</h5>
-              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+              <h5>Event/Kegitan</h5>
+              <ul class="demo-list-item mdl-list">
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Bryan Cranston
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Aaron Paul
+    </span>
+  </li>
+  <li class="mdl-list__item">
+    <span class="mdl-list__item-primary-content">
+      Bob Odenkirk
+    </span>
+  </li>
+</ul>
             </div>
           </section>
         </div>

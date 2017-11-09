@@ -59,5 +59,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
     <!-- JS -->
     <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.16/js/dataTables.material.min.js"></script>
+	<script type="text/javascript" src="<?=base_url();?>assets/js/ajax_daerah.js"></script>
+      <script>
+      $( function() {
+        $( "#datepicker" ).datepicker({
+          changeMonth: true,
+          changeYear: true,
+          dateFormat: 'yy/mm/dd',
+          yearRange: "1234:2018"
+        });
+      } );
+	  
+	$(document).ready(function() {
+    $('#example').DataTable( {
+		"processing": true,
+        "serverSide": true,
+        "ajax": "http://januridp.dev/peninggaran/data/get",
+        columnDefs: [
+            {
+                targets: [ 0, 1, 2 ],
+                className: 'mdl-data-table__cell--non-numeric'
+            }
+        ]
+    } );
+} );
+      </script>
   </body>
 </html>
